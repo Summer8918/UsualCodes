@@ -1,5 +1,5 @@
-#ifndef _QUEUE_H
-#define _QUEUE_H
+#ifndef _CYCLEQUEUE_H
+#define _CYCLEQUEUE_H
 typedef unsigned char uint8_t;
 typedef int Elem;
 
