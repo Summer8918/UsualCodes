@@ -114,7 +114,7 @@ Elem Queue_back(Queue *queue)
     {
         return 0;
     }
-    return queue->Datas[queue->iTail];
+    return queue->Datas[(queue->iTail+queue->iSize-1)%(queue->iSize)];
 }
 /*******************************************************/
 /*******************************************************/
